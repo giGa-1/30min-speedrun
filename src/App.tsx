@@ -77,7 +77,7 @@ interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const CButton: FC<IButton> = ({ children, ...props }) => (
   <button
-    className="bg-zinc-500/20 rounded-sm py-[3vh] px-[2vw] flex justify-center items-center"
+    className="bg-zinc-500/20 rounded-sm py-[3vh] px-[5vw] sm:px-[2vw] flex justify-center items-center"
     {...props}
   >
     {children}
