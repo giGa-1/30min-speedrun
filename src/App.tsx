@@ -102,7 +102,7 @@ function App() {
     const leftCoord = (window.innerWidth - rects.width) * coords.x * 0.01;
     const topCoord = (window.innerHeight - rects.height) * coords.y * 0.01;
 
-    tl.to("#box", { left: leftCoord, top: topCoord });
+    tl.to("#box", { left: leftCoord, top: topCoord, overwrite: "auto"});
   };
 
   window.addEventListener("resize", () => {
