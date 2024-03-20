@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background: red;
+}
